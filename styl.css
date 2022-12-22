@@ -28,6 +28,8 @@ body {
 .header {
     min-height: 70vh;
     background: rebeccapurple;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -58,4 +60,16 @@ body {
     text-transform: uppercase;
     color: #fff;
     margin-left: 20px;
+}
+
+
+.header__title {
+    font-size:100px;
+    font-family: cursive;
+ color: red;
+ flex-grow: 1;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-shadow: 0 5px 10px #fff;
 }
